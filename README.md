@@ -3,7 +3,7 @@
 -> The game contains Animation, Music, Score calculation, keyPress & collision detection features.<br>
 -> In this game, we have to save our character Mario from the dragon using arrow keys.<br>
 -> Once the dragon will hit Mario, the game will get over.<br>
--> Each time when we will save Mario from the dragon, the speed of the dragon to hit mario will increase and score of the player will also get updated by 10 points.<br>
+-> Each time when we will save Mario from the dragon, the score of the player will get updated by 10 points and the speed of the dragon to hit Mario will also increase.<br>
 
 # Steps to play the Game:<br>
 STEP-1: Download all the files in the local system.<br>
