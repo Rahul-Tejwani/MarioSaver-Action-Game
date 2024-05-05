@@ -7,7 +7,7 @@ const jumpSound = new Audio('jumpSound.mp3');
 
 setTimeout(() => {
     backgroundMusic.play();
-}, 1000);
+}, 1500);
 
 document.onkeydown = (event) => {
     if(event.key=="ArrowUp"){
