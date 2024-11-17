@@ -8,5 +8,4 @@
 # Steps to play the Game:<br>
 STEP-1: Download all the files in the local system.<br>
 STEP-2: Run the Index.html file in any of the browsers available.<br>
-STEP-3: Click anywhere on the game to play the Mario Music.<br>
-STEP-4: Use the 'Right' and 'Left' Arrow keys to move the Mario and the 'Top' Arrow key to jump the Mario and save it from the dragon.<br>
+STEP-3: Use the 'Right' and 'Left' Arrow keys to move the Mario and the 'Top' Arrow key to jump the Mario and save it from the dragon.<br>
