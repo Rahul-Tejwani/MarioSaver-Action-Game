@@ -5,16 +5,24 @@ const backgroundMusic = new Audio("music.mp3");
 const gameOverMusic = new Audio("gameOver.mp3");
 const jumpSound = new Audio("jumpSound.mp3");
 
-document.addEventListener("keydown", startGameMusic, { once: true });
+// Unlock audio elements on the first user interaction
+document.addEventListener("keydown", initializeGameSounds, { once: true });
 
-function startGameMusic() {
+function initializeGameSounds() {
   backgroundMusic.play().catch((error) => {
     console.log("Background music couldn't play:", error);
+  });
+  gameOverMusic.play().then(() => gameOverMusic.pause()).catch((error) => {
+    console.log("Game Over music initialized:", error);
+  });
+  jumpSound.play().then(() => jumpSound.pause()).catch((error) => {
+    console.log("Jump sound initialized:", error);
   });
 }
 
 document.onkeydown = (event) => {
   if (event.key == "ArrowUp") {
+    jumpSound.currentTime = 0; // Reset to ensure the sound plays fully
     jumpSound.play();
     let mario = document.querySelector(".mario");
     mario.classList.add("animateMario");
@@ -64,7 +72,10 @@ setInterval(() => {
     gameOver.style.color = "red";
     dragon.classList.remove("animateDragon");
     backgroundMusic.pause();
-    gameOverMusic.play();
+    gameOverMusic.currentTime = 0; // Reset to play from the beginning
+    gameOverMusic.play().catch((error) => {
+      console.log("Game Over music couldn't play:", error);
+    });
   } else if (diffX < 150 && cross) {
     score += 10;
     updateScore(score);
@@ -94,3 +105,4 @@ function reduceAnimationDuration() {
     console.log("New Animation Duration : " + animationDuration);
   }
 }
+
