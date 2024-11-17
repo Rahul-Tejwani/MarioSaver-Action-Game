@@ -5,9 +5,13 @@ const backgroundMusic = new Audio('music.mp3');
 const gameOverMusic = new Audio('gameOver.mp3');
 const jumpSound = new Audio('jumpSound.mp3');
 
-setTimeout(() => {
-    backgroundMusic.play();
-}, 1500);
+document.addEventListener("keydown", startGameMusic, { once: true });
+
+function startGameMusic() {
+  backgroundMusic.play().catch((error) => {
+    console.log("Background music couldn't play:", error);
+  });
+}
 
 document.onkeydown = (event) => {
     if(event.key=="ArrowUp"){
