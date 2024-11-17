@@ -2,7 +2,7 @@ let score = 0;
 let cross = true;
 
 const backgroundMusic = new Audio("music.mp3");
-const gameOverMusic = new Audio("gameOver.mp3");
+const gameOverMusic = new Audio("gameover.mp3");
 const jumpSound = new Audio("jumpSound.mp3");
 
 // Unlock audio elements on the first user interaction
