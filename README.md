@@ -6,9 +6,13 @@ This project showcases robust game mechanics, demonstrating proficiency in front
 
 ## Key Features and Functionalities
 - **Interactive Gameplay:** Players control Mario using keyboard arrow keys to save from the dragon, showcasing user interaction and responsive controls.
+
 - **Real-Time Event Handling & Collision Detection:** Utilized event listeners to capture and process keypresses, ensuring smooth character movements. Developed a precise collision detection mechanism that accurately determines interactions between Mario and the dragon, triggering a game-over state upon the collision.
+
 - **Dynamic Scoring System:** Designed a scoring mechanism where each successful save from the dragon increments the player’s score by 10 points, keeping the game engaging.
+
 - **Difficulty Scaling:** The dragon’s speed increases with each successful save, adding a layer of challenge, and encouraging competitive gameplay.
+
 - **Animations, Visuals and Sound Effects:** Leveraged CSS and JavaScript to create animations, and incorporated background music and in-game sound effects enhancing the gaming experience.
 
 ## Technologies Used
