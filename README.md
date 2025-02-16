@@ -1,4 +1,4 @@
-# Mario Saver Action Game
+# MarioSaver Action Game
 
 ## Project Overview
 MarioSaver is an interactive and engaging web-based action game, built with HTML, CSS, and JavaScript. In the game, the player has to save Mario from an approaching dragon using keyboard controls. This game offers an engaging user experience with real-time interactions and a dynamic difficulty system.
