@@ -18,6 +18,6 @@ This project showcases robust game mechanics, demonstrating proficiency in front
 - **Audio Integration:** HTML5 Audio for background music and sound effects.
 
 ## How to Play:
-Use the arrow keys to move Mario and avoid the dragon.
-Each successful save increases your score by 10 points and the dragon’s speed.
-The game ends when the dragon catches Mario.
+- Use the arrow keys to move Mario and avoid the dragon.<br>
+- Each successful save increases your score by 10 points and the dragon’s speed.<br>
+- The game ends when the dragon catches Mario.<br>
